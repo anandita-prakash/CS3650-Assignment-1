@@ -3,6 +3,7 @@
 In this programming assignment, you will build a Java-based simulation tool based on the live
 poll idea (mentimeter) we used during the class. This is going to be a pure desktop-based
 console program, WITHOUT web interactions or graphical UIs required.
+
 The basic functions of the system include:
 1) Configure the question types and candidate answers. It should support 2 types of
 questions: 1) multiple-choice question (more than one choice can be chosen including
@@ -25,14 +26,17 @@ the driver will 1) create a question type and configure the answers; 2) configur
 question for iVote Service; 3) randomly generate a number students and the answers; 4)
 submit all the students’ answers to iVote Service; 5) call the Voting Service output
 function to display the result.
+
 You should write the program in Java, and follow the important Java OOP principles we have
 learned so far. The minimum core concepts (classes) you probably need to have are:
 1) Student
 2) Question
 3) VotingService
 4) SimulationDriver
+
 Of course, other classes, subclasses or interfaces may be needed depending on how you
 design and implement the system.
+
 SimulationDriver should contain a main() method that triggers the whole process. You can
 randomly generate the IDs and answers for a group of students to simulate the submission
 process and check the results.
